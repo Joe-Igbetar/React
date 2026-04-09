@@ -21,6 +21,7 @@ import AdminOrderDetailsPage from "../pages/AdminOrderDetailsPage";
 import WishlistPage from "../pages/WishlistPage";
 import ScrollToTop from "../components/common/ScrollToTop";
 import AdminProductsPage from "../pages/AdminProductsPage";
+import NotFoundPage from "../pages/NotFoundPage";
 
 function AppRoutes() {
   return (
@@ -90,6 +91,8 @@ function AppRoutes() {
             </AdminRoute>
           }
         />
+        <Route path="*" element={<NotFoundPage />} />
+        
       </Routes>
     </>
   );
