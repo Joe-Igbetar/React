@@ -4394,3 +4394,46 @@ html.dark .admin-image-action-btn {
     width: 100%;
   }
 }
+
+/* ===== Order Success Page Dark Mode Fix ===== */
+
+html.dark .order-success-card {
+  background: #161a20;
+  border: 1px solid #2a313b;
+}
+
+html.dark .order-success-card h1,
+html.dark .order-success-section h2,
+html.dark .order-success-item-name,
+html.dark .order-success-item-total,
+html.dark .order-success-grand-total {
+  color: #f8fafc;
+}
+
+html.dark .order-success-subtext,
+html.dark .order-success-meta p,
+html.dark .order-success-item p {
+  color: #cbd5e1;
+}
+
+html.dark .order-success-meta {
+  background: #0f1115;
+  border: 1px solid #2a313b;
+}
+
+html.dark .order-success-item {
+  border-bottom: 1px solid #2a313b;
+}
+
+html.dark .order-success-btn.secondary {
+  background: #2a313b;
+  color: #f8fafc;
+}
+
+html.dark .order-success-btn.secondary:hover {
+  background: #374151;
+}
+
+html.dark .order-success-link {
+  color: #86efac;
+}
